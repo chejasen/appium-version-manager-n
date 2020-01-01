@@ -1,0 +1,11 @@
+{   "name": "appium-version-manager-n"
+  , "description": "Appium version manager"
+  , "version": "0.8"
+  , "author": "chejasen [https://github.com/chejasen/appium-version-manager-n]"
+  , "homepage": "https://github.com/chejasen/appium-version-manager-n"
+  , "keywords": ["node", "binary", "version", "env", "appium"]
+  , "bin": { "avm": "./bin/avm" }
+  , "repository": { "type": "git", "url": "https://github.com/chejasen/appium-version-manager-n.git" }
+  , "engines": { "node": "*" }
+  , "license": "MIT"
+}
