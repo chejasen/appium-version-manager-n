@@ -1,9 +1,8 @@
 # avm
-This is a fork of the avm here: https://github.com/abhinavsingh/avm, which has been inactive for more than years.
+This is a fork of the avm here: https://github.com/abhinavsingh/avm, which has been inactive for more than two years.
+Fixes are added to make it easier to use.
 
-I added fixes to make it easier to use.
-
-# Changes:
+# Changes/Fixes:
 1. 'avm' with no parameter will show the installed Appium versions.
 2. fixed the 'avm list' command that didn't work
 
@@ -62,7 +61,6 @@ Output from `avm --help`:
     Usage: avm [options] [COMMAND] [args]
 
     Commands:
-
       avm                            Output versions installed
       avm latest                     Install or activate the latest appium release
       avm <version>                  Install appium <version>
@@ -74,12 +72,10 @@ Output from `avm --help`:
       avm ls                         Output the versions of appium available
 
     Options:
-
       -V, --version   Output current version of avm
       -h, --help      Display help information
 
     Aliases:
-
       which   bin
       as      use
       list    ls
@@ -87,14 +83,11 @@ Output from `avm --help`:
 
 ## Details
 
- `avm` by default installs appium to _/usr/local/avm/versions_, from
- which it can see what you have currently installed, and activate previously 
- installed versions of appium when `avm <version>` is invoked again.
+By default Appium are installed to _/usr/local/avm/versions_, from which it can see what you have currently installed, and activate previously installed versions of appium when `avm <version>` is invoked again.
 
- Activated appium binary is then installed by symlinking to _/usr/local/bin/appium_.
+Activated appium binary is then installed by symlinking to _/usr/local/bin/appium_.
 
- To alter where `avm` operates simply export __AVM_PREFIX__ to whatever you prefer.
- It defaults to _/usr/local_
+To alter where `avm` operates simply export __AVM_PREFIX__ to whatever you prefer. It defaults to _/usr/local_
 
 ## License
 
